@@ -1,0 +1,20 @@
+package system-io-handle
+
+brief   = "Handle based IO routines of Idris2"
+version = 0.6.0
+authors = "HATTORI, Hiroki <seagull.kamome@gmail.com>"
+license = "MIT"
+
+sourcedir = "./src"
+depends   = base >= 0.6.0
+          , contrib >= 0.6.0
+          , elab-util >= 0.6.0
+          , sop >= 0.6.0
+
+modules = System.IO.Handle
+        , System.IO.Handle.Types
+        , System.IO.Handle.Unix
+        , System.IO.Handle.Windows
+        , System.IO.Util.GetLine
+        , System.IO.Terminal
+

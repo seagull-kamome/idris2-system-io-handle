@@ -1,0 +1,10 @@
+[custom.all.system-io-handle]
+type = "local"
+path = "."
+ipkg = "idris2-system-io-handle.ipkg"
+test = "test/test.ipkg"
+
+# [custom.all.system-io-handle-test]
+# type = "local"
+# path = "tests"
+# ipkg = "test.ipkg"
